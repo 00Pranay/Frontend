@@ -37,7 +37,6 @@ function App() {
         <Route path="/LoginRegister"  element={<LoginRegister />}/>
         <Route path="/Dashboard" element={<FileChat/>} />
         <Route path="/ReadMe" element={<ReadMe/>}/>
-        {/* FIXED ROUTE */}
         <Route path="/JoinGlobalChat" element={<JoinGlobalChat onJoin={handleJoin} />} />
         <Route path="/chat" element={<GlobalChat socket={socket} name={name} />} />
       </Routes>
